@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minhas Tarefas</title>
+    <link rel="stylesheet" href="../css/tarefas.css">
+    <link rel="icon" type="image/svg+xml" href="/Views/images/GestorDeTarefa.svg">
+</head>
+<body>
+
+<header class="topo">
+    <button onclick="logout()">Sair</button>
+</header>
+
+<section class="box criar-tarefa">
+    <h3>Criar tarefa</h3>
+
+    <label for="titulo">Título da tarefa</label>
+    <input type="text" id="titulo" placeholder="Título da tarefa">
+
+    <label for="descricao">Descrição</label>
+    <input type="text" id="descricao" placeholder="Descrição da tarefa">
+
+    <label for="dataEntrega">Data de entrega</label>
+    <input type="date" id="dataEntrega">
+
+    <label for="prioridade">Prioridade</label>
+    <select id="prioridade">
+        <option value="1">Baixa</option>
+        <option value="2">Média</option>
+        <option value="3">Alta</option>
+    </select>
+
+    <button class="btn btn-criar" onclick="criarTarefa()">Criar</button>
+</section>
+
+<section class="box">
+    <h3>Minhas tarefas</h3>
+
+    <div class="filtros">
+        <button onclick="filtrar('todas')">Todas</button>
+        <button onclick="filtrar('pendentes')">Pendentes</button>
+        <button onclick="filtrar('atrasadas')">Atrasadas</button>
+        <button onclick="filtrar('concluidas')">Concluídas</button>
+    </div>
+
+    <ul id="lista"></ul>
+</section>
+
+<script src="../js/tarefas.js"></script>
+</body>
+</html>

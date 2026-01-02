@@ -1,0 +1,8 @@
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\GerenciadorDeTarefa.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\GerenciadorDeTarefa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\GerenciadorDeTarefa.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\GerenciadorDeTarefa.AssemblyInfo.cs
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\GerenciadorDeTarefa.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\GerenciadorDeTarefa.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net9.0\GerenciadorDeTarefa.MvcApplicationPartsAssemblyInfo.cache

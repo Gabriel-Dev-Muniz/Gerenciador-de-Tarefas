@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/svg+xml" href="/Views/images/GestorDeTarefa.svg">
+</head>
+<body>
+
+<div class="container">
+    <h1>Cadastro</h1>
+
+    <p>Nome</p>
+    <input type="text" id="nome">
+
+    <p>Email</p>
+    <input type="email" id="email">
+
+    <p>Senha</p>
+    <input type="password" id="senha">
+
+    <button id="btnCadastro" onclick="cadastrar()">Cadastrar</button>
+
+    <a href="index.html">Já tem conta? Entrar</a>
+
+    <p id="msg"></p>
+</div>
+
+<script src="../js/auth.js"></script>
+</body>
+</html>

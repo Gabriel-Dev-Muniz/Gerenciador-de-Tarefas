@@ -1,0 +1,149 @@
+/* =====================
+   Login - Responsivo
+===================== */
+
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f3f4f6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container Login */
+.container {
+    background: #ffffff;
+    padding: 30px 25px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Títulos e textos */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #111827;
+}
+
+label, p {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #374151;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    transition: all 0.2s ease;
+}
+
+input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37,99,235,0.2);
+    outline: none;
+}
+
+/* Botões */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #111827;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+button:disabled {
+    background: #6b7280;
+    cursor: not-allowed;
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    color: #2563eb;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mensagens */
+#msg {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#msg.erro { color: #dc2626; }
+#msg.sucesso { color: #16a34a; }
+
+/* =====================
+   Responsividade
+===================== */
+
+/* Celular pequeno (320px a 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+    h1 { font-size: 22px; }
+    input, button { padding: 10px; }
+}
+
+/* Tablet / Notebook pequeno (481px a 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        padding: 25px;
+        width: 80%;
+        max-width: 450px;
+    }
+    h1 { font-size: 26px; }
+}
+
+/* Desktop / PC grande (1025px a 1920px) */
+@media (min-width: 1025px) and (max-width: 1920px) {
+    .container {
+        padding: 30px;
+        width: 400px;
+    }
+    h1 { font-size: 28px; }
+}
+
+/* TV / Ultra HD (acima de 1920px) */
+@media (min-width: 1921px) {
+    .container {
+        width: 500px;
+        padding: 40px;
+    }
+    h1 { font-size: 32px; }
+}
