@@ -139,3 +139,4 @@ C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net8.0\refint\Gerenciador
 C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net8.0\GerenciadorDeTarefa.pdb
 C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net8.0\GerenciadorDeTarefa.genruntimeconfig.cache
 C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net8.0\ref\GerenciadorDeTarefa.dll
+C:\Users\gabri\Documents\GerenciadorDeTarefa\obj\Debug\net8.0\GerenciadorDeTarefa.sourcelink.json

@@ -169,5 +169,5 @@ function limpar() {
 
 function logout() {
     localStorage.clear();
-    window.location.href = "index.html";
+    window.location.href = "../../index.html";
 }

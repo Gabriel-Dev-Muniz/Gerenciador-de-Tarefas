@@ -30,11 +30,11 @@ async function login() {
 
         const data = await res.json();
 
-        // 🔑 PADRÃO CORRETO
         localStorage.setItem("token", data.token);
         localStorage.setItem("usuario", JSON.stringify(data.usuario));
 
-        window.location.href = "tarefas.html";
+        // ✅ Ajustado para nova estrutura
+        window.location.href = "views/html/tarefas.html";
 
     } catch {
         msg.innerText = "Email ou senha inválidos";
@@ -77,7 +77,7 @@ async function cadastrar() {
         msg.classList.add("sucesso");
 
         setTimeout(() => {
-            window.location.href = "index.html";
+            window.location.href = "../../index.html";
         }, 1500);
 
     } catch {
