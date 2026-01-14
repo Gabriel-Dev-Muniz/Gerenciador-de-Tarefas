@@ -35,35 +35,6 @@ Sistema web desenvolvido em **ASP.NET Core MVC** para gerenciamento de tarefas, 
 
 ---
 
-## 📂 Estrutura do Projeto
-
-SistemaGestaoTarefas
-│
-├── Controllers
-│ └── TarefasController.cs
-│
-├── Models
-│ └── Tarefa.cs
-│
-├── Data
-│ └── ApplicationDbContext.cs
-│
-├── Views
-│ └── Tarefas
-│ ├── Index.cshtml
-│ ├── Create.cshtml
-│ ├── Edit.cshtml
-│ └── Delete.cshtml
-│
-├── wwwroot
-│ └── css
-│ └── site.css
-│
-├── Program.cs
-└── appsettings.json
-
----
-
 ## ⚙️ Como Executar o Projeto
 
 ### Pré-requisitos
